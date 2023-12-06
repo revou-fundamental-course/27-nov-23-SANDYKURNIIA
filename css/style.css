@@ -1,0 +1,35 @@
+
+#Navigation\ bar a {
+    text-decoration: none; /* Hapus dekorasi default link */
+    color: white; /* Warna teks link */
+}
+
+/* Styling untuk gambar */
+img {
+    display: block; /* Memastikan gambar memiliki margin yang tepat */
+    margin: auto; /* Posisi gambar di tengah */
+}
+
+/* Styling untuk judul kalkulator */
+#kalkulator {
+    font-size: 24px; /* Ukuran teks */
+    margin-top: 20px; /* Jarak dari gambar ke judul */
+    text-align: center; /* Posisi teks di tengah */
+}
+
+/* Styling untuk input dan tombol */
+input[type="text"], input[type="button"] {
+    width: 100px; /* Lebar input dan tombol */
+    margin-bottom: 10px; /* Jarak antar elemen input */
+    padding: 5px; /* Padding (jika diperlukan) */
+    border-radius: 8px;
+}
+input[type="button"]:last-of-type {
+    position: absolute;
+    bottom: -200px;
+    right: 10px;
+    background-color: orange;
+    padding: 2px;
+    border-radius: 8px;
+}
+
