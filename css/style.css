@@ -1,7 +1,7 @@
 
-#Navigation\ bar a {
+#Navigation-bar  {
     text-decoration: none; /* Hapus dekorasi default link */
-    color: white; /* Warna teks link */
+    color: blue; /* Warna teks link */
 }
 
 /* Styling untuk gambar */
